@@ -1,0 +1,31 @@
+{
+  "name": "fulcrum-dispatch",
+  "description": "Dispatch Fulcrum records",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "coffee ./bin/www",
+    "build": "browserify -t coffeeify --extension='.coffee' assets/js/src/main.coffee -o assets/js/lib/bundle.js",
+    "watch": "watchify -t coffeeify --extension='.coffee' assets/js/src/main.coffee -o assets/js/lib/bundle.js -dv",
+    "dev": "npm run start & npm run watch"
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "jade": "~1.3.0",
+    "coffee-script": "~1.7.1",
+    "fulcrum-app": "~0.4.0",
+    "xhr": "~1.15.0",
+    "async": "~0.9.0",
+    "node-uuid": "~1.4.1",
+    "request": "~2.42.0",
+    "underscore": "~1.7.0"
+  },
+  "devDependencies": {
+    "coffeeify": "~0.7.0",
+    "watchify": "~1.0.2",
+    "browserify": "~5.11.2"
+  }
+}

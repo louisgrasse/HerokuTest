@@ -1,0 +1,105 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #000;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.navbar .white {
+  color: #fff;
+}
+
+.content {
+  height: 100%;
+}
+
+#map-container {
+  height: 100%;
+}
+
+#queues-container {
+  z-index: 1000;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 180px;
+}
+
+#queues {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  color: #fff;
+  text-shadow: 1px 1px 0px #383838;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#queues div:last-child {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+#queues .ui-state-highlight {
+  border: none;
+  background: none;
+  color: #fff;
+}
+
+.records {
+  max-height: 300px;
+  min-height: 3px;
+  overflow: auto;
+  border-bottom: 1px solid #1d1d1d;
+  background: rgba(100, 100, 100, 0.5);
+}
+
+.records ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.records li.record-highlight {
+  background: #fff;
+  color: #000;
+  text-shadow: none;
+}
+
+.records ul li {
+  width: 100%;
+  padding: 5px 5px 5px 10px;
+  cursor: pointer;
+}
+
+.records ul li .fa-circle {
+  width: 20px;
+}
+
+.queue .heading {
+  width: 100%;
+  padding: 5px;
+}
+
+.queue {
+  width: 180px;
+  font-size: 13px;
+  color: #fff;
+  line-height: 13px;
+}
+
+.queue .heading {
+  cursor: pointer;
+}
+
+.queue .heading .pin-toggle {
+  width: 20px;
+}
