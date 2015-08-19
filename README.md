@@ -2,9 +2,7 @@
 
 Fulcrum dispatch is a simple record dispatching and assignment app built using fulcrum-node.  The intent is to demonstrate a small amount of functionality with commented source code to help facilitate building exactly what you need.  With the app, a dispatcher can assign records, representing appointments, to technicians by dragging and dropping them on the technicians job queue.  A map is displayed showing the location of each appointment. 
 
-<video src="http://www.fulcrumapp.com/assets/img/blog/fulcrum-dispatch-app-720.mp4" controls>
-  You can see the application in action here: <a href="http://www.fulcrumapp.com/assets/img/blog/fulcrum-dispatch-app-720.mp4">Video</a>
-</video>
+You can see the application in action here: <a href="https://vimeo.com/108605573">Video</a>
 
 ### Development
 
